@@ -25,17 +25,11 @@ fecha: 03/04/2024
     margin: 0;
 }
 
-a{
-    color: var(--blanco);
-    background-color: var(--verde_bosque);
-    text-decoration: none;
-
-}
 body{
     background-color: var(--beige);
 }
-/*header*/
-header{
+/*header y footer*/
+.encabezado-final{
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -43,13 +37,22 @@ header{
     align-items: center;
     background-color: var(--verde_bosque);
 }
-header h1{
+.encabezado-final a{
+    color: var(--blanco);
+    background-color: var(--verde_bosque);
+    text-decoration: none;
+
+}
+.encabezado-final .text{
     background-color: var(--verde_bosque);
     color: var(--blanco);
 }
-header nav{
+.encabezado-final .navi{
+    display: flex;
+    gap: 1vw;
     background-color: var(--verde_bosque);
 }
+
 /*secccion casa, muestra titulo grande y descripcion*/
 .home{
     height: 50vh;
@@ -74,11 +77,56 @@ header nav{
 }
 /*distribucion secciones de parques y jardines*/
 .sect{
+    margin: 1vh;
     display: flex;
+    max-height: 60vh;
 }
 .info{
-
+    margin: 1vw;
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .info .tit{
     color: var(--verde_bosque);
+}
+.info .hora-ubic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*apartado de imagenes*/
+.div-img{
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div-img .cont-img{
+    gap: 2px;
+}
+.div-img .cont-img .img-1{
+    width: 60%;
+    height: 40%;
+}
+
+.div-img .cont-img .img-2{
+    width: 30%;
+    height: 20%;
+}
+
+.div-img .cont-img .img-3{
+    width: 30%;
+    height: 20%;
+}
+
+/*footer*/
+.encabezado-final .logo-alcaldia{
+    width: 5vw;
+    height: 2
+    8vh;
 }
