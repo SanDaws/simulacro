@@ -1,0 +1,29 @@
+/* 
+Nombre Completo: Santiago Castro Giraldo
+Clan: DELL
+fecha: 03/04/2024 
+*/
+
+/*importaciones*/
+/*fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*iconos*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/*variables genericas*/
+:root{
+    --verde_bosque:#1A5126;
+    --verde_claro:#8FBF5F;
+    --azul_claro:#5CB3FF;
+    --beige:#F3E9DC;
+    --Marron_tierra:#B18F6A;
+    --blanco:#ffffff;
+}
+/*Entorno general*/
+*{
+    font-family: "Montserrat", sans-serif;
+    
+}
+/*header*/
+header{
+    display: flex;
+}

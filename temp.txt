@@ -1,0 +1,6 @@
+calendario:
+<i class="bi bi-calendar-event-fill"></i>
+location:
+<i class="bi bi-geo-alt-fill"></i>
+tree:
+<i class="bi bi-tree-fill"></i>
