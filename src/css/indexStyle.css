@@ -72,3 +72,10 @@ header nav{
     width: 50vw;
     text-align: center;
 }
+/*distribucion secciones de parques y jardines*/
+.info{
+
+}
+.info .tit{
+    color: var(--verde_bosque);
+}
