@@ -23,7 +23,29 @@ fecha: 03/04/2024
     font-family: "Montserrat", sans-serif;
     
 }
+
+a{
+    color: var(--blanco);
+    background-color: var(--verde_bosque);
+    text-decoration: none;
+
+}
+body{
+    background-color: var(--beige);
+}
 /*header*/
 header{
+    margin: 0;
     display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: var(--verde_bosque);
+}
+header h1{
+    background-color: var(--verde_bosque);
+    color: var(--blanco);
+}
+header nav{
+    background-color: var(--verde_bosque);
 }
