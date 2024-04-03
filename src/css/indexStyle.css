@@ -73,6 +73,9 @@ header nav{
     text-align: center;
 }
 /*distribucion secciones de parques y jardines*/
+.sect{
+    display: flex;
+}
 .info{
 
 }
